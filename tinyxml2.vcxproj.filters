@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="imrad">
+      <UniqueIdentifier>{32C4A80F-9ED8-D0C0-675A-7420D32DCDF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imrad\src">
+      <UniqueIdentifier>{494B0F82-B5B5-C3F8-FEF3-749E6A9DA14D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\imrad\src\binding_eval.h">
+      <Filter>imrad\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imrad\src\binding_input.h">
+      <Filter>imrad\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imrad\src\binding_property.h">
+      <Filter>imrad\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imrad\src\binding_type.h">
+      <Filter>imrad\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imrad\src\cpp_parser.h">
+      <Filter>imrad\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imrad\src\cppgen.h">
+      <Filter>imrad\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imrad\src\glfw_cursor.h">
+      <Filter>imrad\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imrad\src\imrad.h">
+      <Filter>imrad\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imrad\src\node_container.h">
+      <Filter>imrad\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imrad\src\node_extra.h">
+      <Filter>imrad\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imrad\src\node_standard.h">
+      <Filter>imrad\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imrad\src\node_window.h">
+      <Filter>imrad\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imrad\src\stx.h">
+      <Filter>imrad\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imrad\src\ui_about_dlg.h">
+      <Filter>imrad\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imrad\src\ui_binding.h">
+      <Filter>imrad\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imrad\src\ui_class_wizard.h">
+      <Filter>imrad\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imrad\src\ui_combo_dlg.h">
+      <Filter>imrad\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imrad\src\ui_error_box.h">
+      <Filter>imrad\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imrad\src\ui_explorer.h">
+      <Filter>imrad\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imrad\src\ui_horiz_layout.h">
+      <Filter>imrad\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imrad\src\ui_input_name.h">
+      <Filter>imrad\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imrad\src\ui_message_box.h">
+      <Filter>imrad\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imrad\src\ui_new_field.h">
+      <Filter>imrad\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imrad\src\ui_settings_dlg.h">
+      <Filter>imrad\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imrad\src\ui_table_cols.h">
+      <Filter>imrad\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imrad\src\uicontext.h">
+      <Filter>imrad\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imrad\src\utils.h">
+      <Filter>imrad\src</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\imrad\src\binding_property.cpp">
+      <Filter>imrad\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imrad\src\cppgen.cpp">
+      <Filter>imrad\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imrad\src\imrad.cpp">
+      <Filter>imrad\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imrad\src\node_container.cpp">
+      <Filter>imrad\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imrad\src\node_extra.cpp">
+      <Filter>imrad\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imrad\src\node_standard.cpp">
+      <Filter>imrad\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imrad\src\node_window.cpp">
+      <Filter>imrad\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imrad\src\ui_about_dlg.cpp">
+      <Filter>imrad\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imrad\src\ui_binding.cpp">
+      <Filter>imrad\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imrad\src\ui_class_wizard.cpp">
+      <Filter>imrad\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imrad\src\ui_combo_dlg.cpp">
+      <Filter>imrad\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imrad\src\ui_error_box.cpp">
+      <Filter>imrad\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imrad\src\ui_explorer.cpp">
+      <Filter>imrad\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imrad\src\ui_horiz_layout.cpp">
+      <Filter>imrad\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imrad\src\ui_input_name.cpp">
+      <Filter>imrad\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imrad\src\ui_message_box.cpp">
+      <Filter>imrad\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imrad\src\ui_new_field.cpp">
+      <Filter>imrad\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imrad\src\ui_settings_dlg.cpp">
+      <Filter>imrad\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imrad\src\ui_table_cols.cpp">
+      <Filter>imrad\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imrad\src\uicontext.cpp">
+      <Filter>imrad\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imrad\src\utils.cpp">
+      <Filter>imrad\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp" />
+    <ClCompile Include="xmltest.cpp" />
+  </ItemGroup>
+</Project>
