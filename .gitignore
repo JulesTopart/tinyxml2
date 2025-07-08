@@ -22,3 +22,5 @@ libtinyxml2.a
 xmltest
 vs/debug
 
+bin
+bin-int
